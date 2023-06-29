@@ -1,0 +1,47 @@
+VLOOKUP :
+VLOOKUP function looks up a supplied value in the first column of the table,and returns the corresponding value from
+another column.
+Usage : VLOOKUP(LOOKUP_VALUE,TABLE_ARRAY,COLUMN_INDEX_NUM,[RANGE_LOOKUP])
+
+IN FIRST PARAMETER TYPE THE THING FOR WHOSE WE WANT TO HAVE VALUE for e.g. maths subject.
+IN FIRST PARAMETER TYPE THE THING FOR WHOSE WE WANT TO HAVE VALUE.
+IN NEXT PARAMETER SELECT THE TABLE FROM WHERE WE WANT THE MATCH AND HAVE IT LOCKED IF YOU WANT MORE THAN ONE RESULT IN FUTURE.
+IN NEXT PARAMETER WRITE THE INDEX NO.OF THE TABLE SELECTED IN PREVIOUS RANGE FROM WHICH column OF TABLE WE WANT TO HAVE VALUE.
+AND THE LAST ONE IS FOR 0=>IF WE WANT PERFECT MATCH AND 1=>IF WE WANT ACCURATE MATCH.
+$IMP$
+=>IN VLOOKUP the reference column is always the first column where as in INDEX Match it is not necessary.
+
+HLOOKUP :
+HLOOKUP function looks up a supplied value in the first row of the table,and returns the corresponding value from
+another row.
+Usage : HLOOKUP(LOOKUP_VALUE,TABLE_ARRAY,COLUMN_INDEX_NUM,[RANGE_LOOKUP])
+
+IN FIRST PARAMETER TYPE THE THING FOR WHOSE WE WANT TO HAVE VALUE for e.g. maths subject.
+IN NEXT PARAMETER SELECT THE TABLE FROM WHERE WE WANT THE MATCH AND HAVE IT LOCKED IF YOU WANT MORE THAN ONE RESULT IN FUTURE.
+IN NEXT PARAMETER WRITE THE INDEX NO.OF THE TABLE SELECTED IN PREVIOUS RANGE FROM WHICH ROW OF TABLE WE WANT TO HAVE VALUE.
+AND THE LAST ONE IS FOR 0=>IF WE WANT PERFECT MATCH AND 1=>IF WE WANT ACCURATE MATCH.
+
+
+INDEX :
+Index function returns a reference to a cell that lies in a specified row and column of range of cells.
+=>For this it is must to have either row_num or col_num.
+
+Usage : INDEX(array,row_num,[col_num])
+e.g. =INDEX(C4:E8,C10,D11)
+
+MATCH :
+Match function looks up a value in an array and returns the position of the  value within the array.
+
+Usage:=Match(LOOKUP_VALUE,LOOKUP_array,[Match_type])
+e.g. : =MATCH(C8,C3:C7,0)
+
+
+INDEX-MATCH :
+It is the older brother of the most used VLOOKUP.
+It allows us to look up values in a table based off other rows & columns.
+Mostly not used in small data sets.
+
+$IMP$
+=>IN VLOOKUP the reference column is always the first column where as in INDEX Match it is not necessary.
+
+Usage :(range,match(LOOKUP_VALUE,LOOKUP_rangE,Match_type))

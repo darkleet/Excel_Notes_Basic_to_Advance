@@ -1,0 +1,31 @@
+Mainly like logical functions of coding :
+#AND : When everything is true then return true else false.
+
+Usage :AND(LOGICAL1,LOGICAL2,)
+e.g. : =AND(B3>75,C3>75,D3>75)
+
+#OR : When anyone is true then return true else false.
+
+Usage :OR(LOGICAL1,LOGICAL2,)
+e.g. =OR(B3<35,C3<35,D3<35)
+
+#if :
+=>It basically check whether a condition is true or not and based on it it returns the value.
+Usage :IF(LOGICAL_Test,[value_if_true],[value_if_false])
+
+#countif :
+=>The formula returns the count of number of cells which consist of numbers & meet a given condition.
+=>It is a part of mathematical formula.
+=>The advantage of using countifs is that if we change the criteria we will then also get the result which is good.
+=>But this countifs function only shows us the count and does not handle the conditions.
+
+Usage :
+=countif(Range,criteria)
+e.g. =COUNTIF($E$3:$E$7(range),A12(criteria_cell))
+
+#sumif :
+=>It is a part of mathematical formula.
+=>This function return sum of cells which meet a certain criteria.
+Usage :
+=sumif(Range,criteria)
+e.g. =sumIF($E$3:$E$7(range),A12(criteria_cell),[sum_range])

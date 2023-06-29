@@ -1,0 +1,40 @@
+Today() function :
+=> It returns today's date in date format,
+=>and this formula also refresh according to days.
+
+Now() function :
+=>It returns today's date and time in excel  date and time format.
+=>and this formula also refresh according to days.
+
+and whenever we write any date and month in cell then excel automatically detects it as current year date and
+it put it accordingly and also we can see in formula bar the dd-mm-yyyy format.
+e.g. if we write 28 sep and press enter then excel will show 23-Sep this in cell and 23-09-2023 in formula bar.
+
+And if we want to see date and time in other formats then we will right click on the cell and then select the format
+we want to see and also we can create custom format as per need.
+
+
+day() :
+Day function returns the day of the month in numeric format.
+usage : day(DATE)
+e.g. in 12-11-2018 day(12-11-2018) the day of the month is 12 then it will return it as 12.
+
+month() :
+usage : month(DATE)
+e.g. in 12-11-2018 the month of the year is 11 then it will return it as 11.
+
+year() :
+usage : year(DATE)
+e.g. in 12-11-2018 the year is 2018 then it will return it as 2018.
+
+
+The main usage of those date and time function is that we can use them for date and time difference.
+$IMP FUNCTIONS$
+1)DAYS() and DATEDIF() :
+=>It calculates the number of days between two dates.
+e.g. DAYS(end_date(DATE2),start_date(DATE1))=> will return no. of days between both dates.
+e.g. DATEDIF(start_date(DATE1),end_date(DATE2),"d(for days)","m(for months)","y(for years)")=> will return no. of days between both dates.
+
+
+For calculating difference in hours multiply result with 24
+For calculating difference in minutes multiply result with 24*60.

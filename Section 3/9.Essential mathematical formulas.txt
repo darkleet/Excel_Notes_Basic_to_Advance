@@ -1,0 +1,9 @@
+For editing a formula we can edit it in formula bar or by double clicking on the cell.
+
+As soon as we extend formulas to next row we get formulas are updated for next rows/columns.
+
+If we want to add any constant value to a formula then we can do by adding a dollar symbol before row name.
+e.g. A2+B2+B$13 will add constant value and will update other row and column values.
+
+For column addition(i.e. Horizontal additon) of constant value to column we will add a dollar symbol before column name.
+e.g. =I3+I4+$I6

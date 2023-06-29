@@ -1,0 +1,83 @@
+Difference between formulas and functions:
+Formula:
+Formula is an expression which calculates the value of a cell and it can be any expression.
+e.g. A1+B1
+
+Functions:
+Function is a predefined formula and which can be automatically used by defining descriptive names.
+In excel we use functions as they increase the productivity of the work.
+e.g. sum(value1,value2,...) and as we press enter then we will get the sum of all numbers placed inside of sum function.
+
+$TIP$:
+As soon as we get function name in suggestion and we will press tab then it will autocomplete till first bracket and ask for values to be 
+entered.
+
+
+Now, Different function usage :
+#sum():
+1).Way 1 : sum(value1,value2,...) and as we press enter then we will get the sum of all numbers placed inside of sum function.
+
+2).Way 2 : sum(cell1,cell2,...) and as we press enter then we will get the sum of all numbers placed inside of cells.
+
+3).Way 3 : This is a type of range method in which we input the first and the last cell for in which full series summation will be done.
+
+sum((start_cell)cell1:(end_cell)celln) and as we press enter then we will get the sum of all numbers in the range from start to end.
+
+#min/max :
+->This function returns the smallest number in a given set of values.
+->This function returns the largest number in a given set of values.
+->It ignores logical values and text.
+min usage :
+1)min((start_cell)cell1:(end_cell)celln) and as we press enter then we will get the minimum value of all numbers in the range from start to end.
+
+max usage :
+1)max((start_cell)cell1:(end_cell)celln) and as we press enter then we will get the maximum value of all numbers in the range from start to end.
+
+#avg() :
+->This function returns the average value of given numbers.
+->It ignores text values and blank cells.
+avg usage :
+average((start_cell)cell1:(end_cell)celln) and as we press enter then we will get the average value of all numbers in the range from start to end.
+
+#rank.avg() :
+->If we want to give rank to person on basis of some parameters we can use this rank.avg function.
+
+rank.avg Usage :
+=rank.avg(first_parameter_should_be_the_number_whose_rank_is_to_be_founded (avg(in our case)),series_from_where_to_find_rank(),last_parameter_is_how_should_be_the_ranking_done(0->descending(If highest rank is 1 the third parameter should be zero),1-Ascending))
+->One *imp* thing to be noted is that when we drag down this formula for finding ranks of other persons then the middle parameter of series gets
+changed which is not a good thing then we have to use the concept of constant thing i.e. $.
+
+$Tip2$
+Also there is a shortcut for adding $ symbol to cell we have to press f4 on cell name inside of formula bar to add dollar symbol on both rows and 
+column which is a good thing.
+
+#Sum Product() :
+->This formula returns sum after multiplying numbers in an array.
+->It can also be used to count cells based on criteria provided.
+
+general formula :
+sumproduct(array1,array2,...)
+
+#rand()  :
+->This function returns values greater than 0 and less than 1.
+->The number change on recalculations.
+->It does not take any input values.
+->Mostly used for chance events such as dice throwing, coin toss,etc. .
+
+#randbetween :
+->This function returns numbers between specified numbers.
+e.g. randbetween(bottom,top).
+
+
+$Imp.$
+=>As soon as we are entering new values or pressing enter in any cell then the values of rand and randbetween cells keep changing so in 
+order for them to keep the values as it is we will copy the values to a new cell and paste them in form of value only and then paste those 
+values back again to the cells where they are needed thus now the values will not keep changing.
+
+Formula to be done in HW :
+1.MOB
+2.ABS
+3.ROUND
+4.PI
+5.SORT
+6.LOG

@@ -1,0 +1,53 @@
+1.Trim :
+This function removes spaces all before and following the words i.e. leading  and tailing spaces -and also removes 
+extra spaces between words but does not remove the single space between two words.
+e.g. trim(text/cell_name) and this will remove the extra space.
+
+and after getting value keep in mind to past the value somewhere so that afterwards we can get only the value or else formula will
+be there which will create a problem.
+
+2.Concatenate :
+This function joins several text string into one string.
+e.g. Concatenate(string1,string2,...)
+                or
+e.g. Concatenate(string1&string2,...)
+
+3.Substitute :
+->This function is used to replace a part of text in a string with something else.
+->SUBSTITUTE function is used to clean data.
+->This function is case sensitive.
+
+usage :
+=Substitute(Text/cell_no.,old_text,new_text,[instance_number])
+=>Here, the fourth parameter is optional and is called instance_number which means if a letter is repeated then which 
+letter to take in replacement case.
+like in word Stutent : (Stutent,"t","d",2(here as we wanted to take second t so written like this))
+=>It is must to add double inverted commas while writing old_text and new_text.
+
+$TIp$
+if we want to show whole formula then we can show it by having space before equal_to(=) symbol in the cell.
+e.g. (space) =SUBSTITUTE(A4,"science","english")
+
+
+5.Upper and Lower
+=>THis functions convert string to upper and lower cases.
+Usage:
+=upper(Text/cell_no.)
+=lower(Text/cell_no.)
+
+6.Length() :
+=>THis function returns the number of characters in a string(text or numberic value).
+=>It also counts the spaces and special characters.
+Usage:
+=len(Text/cell_no.)
+
+7.Left,mid,Right :
+=>This function mainly returns the number of specified characters from the start/end of the string.
+=>"MID" returns the number of specified characters from a specified point.
+USAGE :
+=LEFT(TEXT,[num_characters])
+=RIGHT(TEXT,[num_characters])
+=MID(TEXT,[STARTING_POSITION],[num_characters])
+
+
+ALSO we will get all textual functions in the formula menu of excel.
