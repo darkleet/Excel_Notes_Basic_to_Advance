@@ -1,0 +1,61 @@
+1.Data Sort
+=>This is a tool which arranges our data into a meaningful order.
+=>If we have text then it can arrange in alphabetic and reverse alphabetic order as well.
+=>And for numbers they can be arranged in ascending and descending order.
+Process :
+=>For sorting first select column then we can click on filter and sort option which we can find in Home as well as Data menu.
+=>For sorting of marks of students or anything else click on expand the selection else we will face problems like
+marks of one student being assigned to another student.
+=>For sorting marks of students in different subjects we will use the custom sorting and we will add the columns in which we want sorting.
+
+2.Filtering
+=>Like for e.g. we have gender data and we only want to see Female data then we can apply filter and can see Female
+data.
+Process :
+=>For Filtering firstly select the table in which we want to apply filter.
+=>Next we can do Filtering by going to Sort and filter option in Home bar above or by pressing Alt+A+T keyboard shrtcut.
+=>Also in table we get an drop down options from which we can select and deselect particular fields inside of those columns too.
+=>For seeing that on which column filter is placed we can see by seeing the symbol of drop-down is changed to filter symbol.
+=>Also inside of the dropdown menu we can get many different option for Filtering numerical and text data accordingly.
+=>If any column contains both numbers and alphabets then we can assign custom filter on it . and also for condition in 
+numbers and text data we can apply custom filter.
+
+
+3.Data Validations
+=>This tool helps us from entering wrong data into the sheet.
+Process :
+=>For using this tool firstly select the column then go to data menu and then select Data Validation.
+=>This can be used for purposes like when we have to enter marks or any data which is in range we can put that range
+in this tool and select whole number and the tool will help us not enter value greater or less than it and will give us error.
+=>Also this tool can be used for list Validation if we have a fixed list of data.
+=>Also we can use this tool in order to have a max length for data i.e. if we want to have any character not more than 10 letter then we can do it using 
+this tool.
+=>There are two more tabs in Data Validation option in which we can customize for more uses,input and error message tabs
+=>THis tabs show according to their names i.e. when user enters input then the message of input tab is seen and when user
+does an error then message of error tab is seen.
+
+/*IMP. DATA*/
+4.Text to columns
+=>Mostly when we scrape data it is seperated by comma or any other element/symbol.
+Process :
+=>So while working in EXCEL we want this data to be arranged in columns ,and this can be done easily by first selecting
+cell in which we have data then going to Data tab and click on Text to column option.
+=>In it we will get two option :
+1.Delimitted
+=>This option is selected when the data we have put is seperated using a particular seperator like comma,etc.
+2.Fixed Width
+=>This option is used when we don't have seperator in the data and we know exact no. of characters a single column should have.
+
+
+5.Remove Duplicates
+=>It will remove Duplicates from our data.
+=>We can remove Duplicates of two types from the data i.e. 1. Full data same duplicate and
+ other 2.column specific in which we want only some data to be removed which  is duplicate.
+Process :
+=>firstly select data the goto data tab and select remove Duplicates option and also one thing to notice as the remove
+headers option opens we can see in top left  that already a tick has been there on My data has headers so see and tick/untick
+it accordingly as in our data we have column headers of maths,science,english,etc.. and next on working with data which has all column as duplicates
+we will select all option and press ok.
+
+Now working with data which has some column values same ,so firstly select the columns having same entries then goto data tab and select remove Duplicates option 
+and work accordingly.

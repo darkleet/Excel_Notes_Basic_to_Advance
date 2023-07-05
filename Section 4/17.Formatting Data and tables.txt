@@ -1,0 +1,76 @@
+In this we will learn on how to make a raw data look good for a presentation by doing formatting.
+
+1.Make the header bolder.
+
+2.Making student names to italic.
+
+3.We will make Average cell also bolder but this time we will use format painter in which first we select the number
+of cells we want in bolder from the cells which we have already done bolder i.e. from header cells and then
+click on Average cell and this will bold them as well.
+
+4.Next we will underline on total and percentage cells.
+
+5.Next we will change the format of the table by selecting whole table and goto fonts option first and change it to
+Century Gothic as in this font the numbers shown are big/large.
+
+6.Next we will change the font size of the header text by clicking on the A^ symbol or else by defining the font size.
+
+7.Also we will decrease the font size of inside data to 10.
+
+8.Next we will draw the borders outside the table by selecting the whole table and clicking on the border option
+found in Home tab and inside of it click on outside borders option.
+
+9.We can also add different type of seperating lines in our table i.e. inside or outside by selecting the whole table,and clicking
+on border option and then click on more border option and inside it  we can see on right we have graphical box which shows us
+our table inside and outside borders and we can select dotted and non-dotted lines for borders.We will select dotted lines for inside.
+
+10.Next we will change the color of header cells and give them a light grey color.
+
+11.Next we will change the font color of student cells and give them a light blue color.
+
+#$IMP. TIP$#
+12.Next we will select the whole table cells and  goto format option present in Home tab and click on Autofit column width.
+.We can also set row and column width by giving numbers in the format option in row/column width option and write width according to us.
+
+13.Next we will algin all the header cells in centre and student name in Right
+
+14.Next we will align the Average row text vertically in middle align.
+
+15.Next we will  add title to the table first by adding some rows and adding a column on left in the table.
+
+#$IMP. TIP$#
+=>We can repeat the same Process of adding rows columns by pressing F4 after first adding a row/column.
+
+16.One more #$IMP. TIP$# is that when a data is not fit into the column and we cannot auto fit the column as well then we will use the option
+called wrap text which will fit the data in the cell by putting the data into next lines as well or we can merge and centre .
+
+17.For seeing decimal data to percentage we can see by clicking on percentage icon. 
+18.In Average row we will decrease the digits after decimal place to single digit.
+
+Now we are going towards #Conditional Formatting(IMP. TOOL Provided by EXCEL)#
+=>Used for visually highlighting the data so that it becomes more of understandable.
+
+1.We will firstly highlight those students who have scored less than 35 mks for that we will first select the all marks
+from table and head towards Conditional formatting found in HoME tab. 
+=>In here we will go to highlight cell rules and will select less than value and will enter the mks and select 
+light red fill with dark text.
+
+2.We can also highlight top 10-15% or any percentage of students by going in top bottom rules and giving %.
+
+3.We can also fill cells with color according to the % numbers the students got in the particular subjects by going into the
+data bars option.
+
+4.We can also set new rule i.e. can make new rule and apply it to the column/row selected.
+
+
+
+NOW WE WILL SEE VIEW tab
+=>Inside this tab we have a grid lines option and if we uncheck it then we won't see any lines outside the table.
+=>Also we will untick headings option as it will not show us row and column no. and we will keep checked formula bar.
+
+
+=>One IMP thing is freeze panes tool and this tool gives us three option
+1.freeze top row.
+2.freeze first column.
+3.customize freeze(and we will use this)
+=>In this option we have to select the cell whose top row and left column we want to freeze.
