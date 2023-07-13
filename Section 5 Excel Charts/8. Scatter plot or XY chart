@@ -1,0 +1,26 @@
+Scatter Plot is also called as XY charts.
+
+These charts show values on both axis i.e. X and Y axis.Mostly these charts are used to show relationship between
+two variables.
+
+If we want to show absolute value start axis from 0.
+and if we want to show relative values then we can start from any other value  and for that right click on Y axis and 
+format data and then in bounds put the minimum value from where to start.
+
+Types of Scatter Plot Charts:
+Scatter Plot with smooth lines can be used to show that how values are changed in series.
+
+Also we have another same Scatter Plot with smooth lines with no data markers where we can see that there are no circles
+on data points
+
+Major work of Scatter Plot is to find relationship between X and Y axis.
+Firstly we can find it by manual analysis.
+Second we can do is by drawing a trendline. And it can be added in chart by using + symbol in chart
+This trendline can be of any type i.e. Linear,Exponential,polynomial,etc.
+And through this we can also have sales forecast.
+
+And also if we want to have an equation of the X and Y axis that we can do by going inside format data of trend line
+and clicking on display equation of chart.
+
+
+For getting relationship b/w two variables we use Scatter Plot but for three variables we use bubble plot chart.

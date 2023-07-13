@@ -1,0 +1,24 @@
+Pie Chart is useful when we want to show relative proportion or contributions from a particular data.
+
+Pie chart can only use a single data series.
+It is useful in representing 5-6 data points.
+
+If we want data in percentages we can do by data format and then in data series formatting we can change.
+
+Also if we want to do data explode i.e. we want to highlight any particular slice then we can do by double clicking on it 
+and then drag and drop.
+
+
+#We can also create a pie of pie or bar of pie chart which will show us the value of any particular slice in other 
+pie or bar chart.
+ 
+ In bar chart we have every subcategory contribution in the height of the bar.It is in form of a stack bar column.And remember to add data
+ labels in every chart.
+
+
+ In pie chart we have last option for doughnut chart and it is similar to pie chart but the major two difference in it is that it has hole in 
+ middle and it can show 1 to more data series in its chart.
+
+For increasing the ring size decrease the doughnut hole size.
+But this type of chart is very less used.
+

@@ -1,0 +1,14 @@
+These charts are mainly used for basically maintaining/creating a chart which can post both positive and negative values.
+
+Waterfall charts are used in financial analysis mainly for seeing how from profit and loss net value has been obtained.
+
+IN excel 2016 and above version waterfall charts have been included and in below version we have to manually create them.
+
+For creating it automatically just select data table and click on insert and then recommended charts and select waterfall from them.
+
+Also in this automatically created chart we have to define/specify base value for it goto formatting option by right click and format plot area
+
+and then select first bar and then goto charting option and select positive values one by one and then click on set as total.
+
+NOw for creating waterfall chart manually:for that we need to select stacked column chart and plot in them this thing by giving no fill 
+to some values.

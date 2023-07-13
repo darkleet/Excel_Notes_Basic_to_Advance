@@ -1,0 +1,43 @@
+Firstly select the whole excel data next goto  insert menu and click on recommended charts.
+
+We can also see different chart layout by going on insert menu and click on  Quick Layout.
+
+Now we will learn creating different charts from scratch:
+1.Bar and column charts
+
+=>Column charts are mostly used to compare data between two discrete items.
+=>For seeing more column chart we will go in insert menu and then we will click on an icon having column behind recommended
+charts option.
+For creating this clustered column chart:
+=>THe easy way as discussed above is that Firstly select the whole excel data next goto  insert menu and click on icon having column behind recommended
+charts option.
+=>But in this way we will have problem when we add new data.
+
+*So, we will use the second way:
+First  goto insert menu and select a 2D column chart which will be fully blank.
+Next as soon as we select a blank chart we get design and select data option.
+So firstly we will click on select data option and then we will select data from the chart and we can get this selected
+data option also by right click on chart area.
+In select data we can see two options:
+1.Legend entries:Here we will add those things which we need to plot,on clicking add in it we will first define series name i.e. heading
+and inside values we will add the values by selecting particular value cells.
+
+2.and in horizontal entries we will add months cells according to current cells.
+
+Two things are missing in our charts now:
+1.Chart title
+2.Legend box which tells us the color of chart relates to which data. 
+
+So we can add them by clicking on + sign on top left of chart.
+
+
+Now creation of stack column chart:
+By selecting our chart and clicking on stack column chart inside of insert menu bar.
+Some people use 3D bars for showing their charts but mostly 2D bar charts are preffered.
+
+
+And we can also created clustered bar and stack bar charts which are used when the bottom horizontal value/text is big so it is easy in 
+bar chart to represent them.
+
+
+

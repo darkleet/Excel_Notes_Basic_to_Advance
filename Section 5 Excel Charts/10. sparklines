@@ -1,0 +1,14 @@
+Sparklines are mini charts which are present in mini cells of excel.
+
+THese are mostly used to show relation b/w time and trend or for variations in dataset.
+
+
+Sparklines are very small and they have limited functionality but can be used to make our user dashboard
+reader friendly.
+
+We can get this sparkline in insert section/menu of excel.Just select data and see we have 3 types of Sparklines:
+1.Line : By selecting this it will draw a line chart in single chart.
+2.Column : By selecting this it will draw a Column  chart in single chart.
+3.Win/Loss : By selecting this it will draw a [+/-] chart in single chart.
+
+
