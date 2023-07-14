@@ -1,0 +1,18 @@
+Pivot Tables are very good and imp. tools in excel and are used to summarize the big amount of data by grouping them.
+Pivot Tables group variables which are similar.
+
+Now in our data we want to find the total sale made by each sales person for which first we can do is manually do sum of sales for each sale person.
+
+BUt it is easy and fast by doing it through pivot table.Goto Insert menu and select pivot table from it and then make sure in pivot table text bar that the whole table is being selected and then click on okk so that excel create a pivot table in new excel sheet.
+
+Here as we created New worksheet in which in the right we have pivot table menu where there is column names list and in the bottom we have areas where can can drag and drop values for generating customized report .
+
+Like if we drop sales person in rows so we get all sale person row by row listed in our table on the left.
+As we drag and drop the Total cost column value in Values column of pivot table menu ,it will provide us with the total cost of salesman sales value.
+
+Also we can filter our data based on regions,etc. and do different things after practice.Alo we have slicer options which  are similar to 
+filter options and which are easy to be applied.
+In menu go to analyze menu and click on insert slicer option and then this option provides us with selecting column names in which we want to apply filters .
+
+
+
